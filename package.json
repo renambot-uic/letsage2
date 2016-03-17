@@ -4,8 +4,8 @@
   "description": "script to provide SSL certificates for SAGE2",
   "main": "index.js",
   "dependencies": {
-    "letsencrypt": "^1.4.3",
-    "letsencrypt-cli": "^1.0.8"
+    "letsencrypt": "latest",
+    "letsencrypt-cli": "https://github.com/renambot-uic/letsencrypt-cli.git"
   },
   "devDependencies": {},
   "scripts": {
