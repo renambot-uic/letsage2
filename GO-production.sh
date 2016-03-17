@@ -12,7 +12,7 @@ email=$2
 
 ./node_modules/.bin/letsencrypt certonly \
   --agree-tos --email $email \
-  --standalone --duplicate \
+  --standalone \
   --rsa-key-size 2048 \
   --domains $server \
   --cert-path $server-cert.pem \
