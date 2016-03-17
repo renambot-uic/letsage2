@@ -6,7 +6,7 @@ Based on:
  - https://github.com/Daplie/node-letsencrypt
  - npm install letsencrypt letsencrypt-cli
 
-Requierments
+Requirements
   - Scripts need administrator priviledges to acces priviledge ports (Administrator or sudo access).
   - your need the FQDN of your server (i.e. myserver.unit.domain.com)
   - scripts need to be run on the SAGE2 host, with SAGE2 NOT running
