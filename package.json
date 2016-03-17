@@ -1,0 +1,20 @@
+{
+  "name": "letsage2",
+  "version": "1.0.0",
+  "description": "script to provide SSL certificates for SAGE2",
+  "main": "index.js",
+  "dependencies": {
+    "letsencrypt": "^1.4.3",
+    "letsencrypt-cli": "^1.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sage2",
+    "letsencrypt"
+  ],
+  "author": "Luc Renambot",
+  "license": "ISC"
+}
