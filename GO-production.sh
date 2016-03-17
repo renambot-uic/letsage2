@@ -1,12 +1,17 @@
 #!/bin/sh
 
+#
+# ./GO myserver.com toto@myserver.com
+#
+
+server=$1
+email=$2
+
 /bin/rm -fr output
 /bin/rm -fr live
 
-server=$1
-
 ./node_modules/.bin/letsencrypt certonly \
-  --agree-tos --email renambot@gmail.com \
+  --agree-tos --email $email \
   --standalone --duplicate \
   --rsa-key-size 2048 \
   --domains $server \
@@ -27,7 +32,9 @@ mv $server-chain.pem live/$server-ca.crt
 
 /bin/rm -f *.pem
 
+echo ""
 echo "SAGE2 certificates in 'live' folder"
+echo ""
 
 # for testing:
 #     https://acme-staging.api.letsencrypt.org/directory
