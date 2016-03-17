@@ -29,6 +29,7 @@ install:
   - move README.md letsage
   - move node_modules letsage
   - move package.json letsage
+  - move node.* letsage
   - move GO* letsage
   - ren letsage letsage-%APPVEYOR_BUILD_VERSION%
   - 7z a -sfx7z.sfx letsage-win64-%APPVEYOR_BUILD_VERSION%-%APPVEYOR_REPO_BRANCH%.exe letsage-%APPVEYOR_BUILD_VERSION% > nul
