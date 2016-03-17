@@ -6,10 +6,10 @@ Based on:
  - npm install letsencrypt letsencrypt-cli
 
 ## Requirements
-  - Scripts need administrator priviledges to acces priviledge ports (Administrator or sudo access).
+  - Scripts need administrator rights to acces priviledge ports (*Administrator or sudo access*).
   - your need the FQDN of your server (i.e. myserver.unit.domain.com)
   - scripts need to be run on the SAGE2 host, with SAGE2 NOT running
-  - **Only a few certifcates can be generated at this point per week per domaain, go easy (use test scripts)**
+  - **Only a few certifcates can be generated at this point per week per domain, go easy (use test scripts)**
 
 ## To test on Windows
   - GO.bat myserver.example.com myemail@example.com
