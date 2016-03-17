@@ -12,18 +12,23 @@ Based on:
   - **Only a few certifcates can be generated at this point per week per domain, go easy (use test scripts)**
 
 ## To test on Windows
-  - GO.bat myserver.example.com myemail@example.com
+  - *GO.bat myserver.example.com myemail@example.com*
   - invalid certificates, but test the process
 
 ## Generate valid cert on Windows
-  - GO-production.bat myserver.example.com myemail@example.com
+  - *GO-production.bat myserver.example.com myemail@example.com*
   - certificates for SAGE2 in the folder called 'live', to be copied into SAGE2/keys folder
 
 ## To test on Unix system
   - requires a compiler and developmentn environment with SSL libraries
-  - GO.sh myserver.example.com myemail@example.com
+  - requires Node.js installed
+  - *npm install*
+  - *GO.sh myserver.example.com myemail@example.com*
 
 ## Generate valid cert on Unix system
-  - GO-production.sh myserver.example.com myemail@example.com
+  - requires a compiler and developmentn environment with SSL libraries
+  - requires Node.js installed
+  - *npm install*
+  - *GO-production.sh myserver.example.com myemail@example.com*
   - certificates for SAGE2 in the folder called 'live', to be copied into SAGE2/keys folder
 
